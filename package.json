@@ -1,0 +1,24 @@
+{
+  "name": "cample-start",
+  "version": "1.0.0",
+  "description": "Starting point for a Cample.js application",
+  "bin": {
+    "cample-start": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camplejs/cample-start.git"
+  },
+  "homepage": "https://camplejs.github.io",
+  "keywords": [
+    "cample",
+    "cample.js",
+    "cample app"
+  ],
+  "type": "module",
+  "author": "Anton Maklakov",
+  "license": "MIT",
+  "devDependencies": {
+    "inquirer": "^9.2.12"
+  }
+}
