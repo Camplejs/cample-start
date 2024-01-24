@@ -42,9 +42,12 @@ const QUESTIONS = [
 const renderFiles = (templatePath, projectNamePath) => {
   const filesToCreate = fs.readdirSync(templatePath);
   for (let i = 0; i < filesToCreate.length; i++) {
-    const currentFile = filesToCreate[i];
+    let currentFile = filesToCreate[i];
     const currentFilePath = join(templatePath, currentFile);
     const currentFileStat = fs.statSync(currentFilePath);
+    currentFile = currentFile === "gitignore.txt" ? ".gitignore" : currentFile;
+    currentFile =
+      currentFile === "packagejson.txt" ? "package.json" : currentFile;
     const writePath = join(DIRECTORY, projectNamePath, currentFile);
     if (currentFileStat.isFile()) {
       const fileContent = fs.readFileSync(currentFilePath, ENCODING);
