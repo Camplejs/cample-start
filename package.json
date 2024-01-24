@@ -1,6 +1,6 @@
 {
   "name": "cample-start",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Starting point for a Cample.js application",
   "bin": {
     "cample-start": "./index.js"
@@ -18,7 +18,7 @@
   "type": "module",
   "author": "Anton Maklakov",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "inquirer": "^9.2.12"
   }
 }
