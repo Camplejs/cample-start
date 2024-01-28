@@ -10,6 +10,6 @@
     "parcel": "^2.11.0"
   },
   "dependencies": {
-    "cample": "latest"
+    "cample": "3.2.0-alpha.*"
   }
 }
