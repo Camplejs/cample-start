@@ -1,6 +1,6 @@
 {
   "name": "cample-start",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Starting point for a Cample.js application",
   "bin": {
     "cample-start": "./index.js"
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/Camplejs/cample-start.git"
   },
-  "homepage": "https://camplejs.github.io",
+  "homepage": "https://camplejs.github.io/documentation/installation.html",
   "keywords": [
     "cample",
     "cample.js",
